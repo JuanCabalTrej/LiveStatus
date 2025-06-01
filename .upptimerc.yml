@@ -1,31 +1,26 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: JuanCabalTrej # Your GitHub organization or username, where this repository lives
+repo: LiveStatus # The name of this repository
 
 sites:
   - name: Google
     url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Skyward
+    url: https://skyward.iscorp.com/scripts/wsisa.dll/WService=wsfindelvalleisdtx/seplog01.w
+  - name: Eduphoria
+    url: https://eduphoria.del-valle.k12.tx.us/authdistrict/login
+  - name: Incident IQ
+    url: https://dvisd.incidentiq.com/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  # cname: demo.upptime.js.org
+  baseUrl: /LiveStatus
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  name: DVISD Status Website
+  introTitle: "**LiveStatus** is the live uptime monitor and status page for DVISD."
+  introMessage: DVISD Status Page
   navbar:
     - title: Status
       href: /
